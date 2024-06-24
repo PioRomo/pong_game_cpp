@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "Run pong game",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/Users/lencho/Downloads/pong_game_cpp/main",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build pong game",
+            "miDebuggerPath": "/usr/bin/lldb"
+        }
+    ]
+}
